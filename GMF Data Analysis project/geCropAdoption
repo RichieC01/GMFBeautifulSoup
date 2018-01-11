@@ -1,0 +1,5 @@
+from bs4 import BeautifulSoup
+import requests
+import csv
+
+page = requests.get("https://www.ers.usda.gov/webdocs/charts/58020/biotechcrops_d.html?v=42565")
